@@ -1,0 +1,14 @@
+# DATA details
+spring:
+   datasource:
+      username: system
+      password: sastra
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      url: jdbc:oracle:thin:@localhost:1521:xe
+
+   jpa:
+      show-sql: true
+      hibernate.naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl       
+
+# PORT details
+server.port: 9999
